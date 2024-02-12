@@ -36,20 +36,6 @@
         };
     };
 
-    macros {
-        aaa_ping: aaa_ping {
-            compatible = "zmk,behavior-macro";
-            label = "AAA_PING";
-            #binding-cells = <0>;
-            bindings = <&none &kp P &kp I &kp N &kp G &kp SPACE &kp N8 &kp DOT &kp N8 &kp DOT &kp N8 &kp DOT &kp N8>;
-        };
-        aaa_email: aaa_email {
-            compatible = "zmk,behavior-macro";
-            label = "AAA_EMAIL";
-            #binding-cells = <0>;
-            bindings = <&none  &kp AT &kp G &kp M &kp A &kp I &kp L &kp DOT &kp C &kp O &kp M>;
-        };
-    };
     keymap {
         compatible = "zmk,keymap";
 
